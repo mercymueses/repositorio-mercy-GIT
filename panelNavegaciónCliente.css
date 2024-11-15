@@ -1,0 +1,52 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #E1B7E4;/*color morado claro*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: #FFD700;/*color dorado*/
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.search-bar{
+    width: 80%;
+    margin: 10px 0;
+}
+.search-bar input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.icon-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+.icon-item{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.icon-item img{
+width: 50px;
+height: 50px;
+margin-bottom: 10px;
+}
+/*Estilos adicionales para los iconos de usuario,notificaciones y cerrar sesión*/
+.user-actions img{
+    width: 30px;
+    height: 30px;
+    margin: 0 9px;
+    cursor: pointer;
+}
